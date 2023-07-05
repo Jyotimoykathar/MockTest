@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Form_validation</title>
+  </head>
+  <body>
+    <main>
+      <form action="index.html">
+        <div class="form-item">
+          <div>
+            <label for="name">Name:</label>
+          </div>
+          <input type="text" placeholder="name" name="name" />
+        </div>
+        <div class="form-item">
+          <label for="email">Email:</label>
+          <input type="email" placeholder="email" name="email" />
+        </div>
+        <div class="form-item">
+          <div>
+            <label for="number">Phone number:</label>
+          </div>
+          <input type="tel" placeholder="phone" name="number" />
+        </div>
+        <div class="form-item">
+          <label for="password">Password:</label>
+          <input type="passowrd" placeholder="passowrd" name="password" />
+        </div>
+        <div class="form-item">
+          <label for="age">Age:</label>
+          <input type="text" placeholder="age" name="age" max-length="2" />
+        </div>
+        <div class="form-item">
+          <label for="male">Male</label>
+
+          <input
+            type="radio"
+            placeholder="age"
+            name="gender"
+            value="male"
+            checked
+          />
+
+          <label for="male">Female</label>
+          <input type="radio" placeholder="age" name="gender" value="female" />
+          <label for="others">Others</label>
+          <input type="radio" placeholder="age" name="gender" value="female" />
+        </div>
+        <div class="form-item">
+          <label for="date">Date:</label>
+          <input type="date" name="date" />
+        </div>
+        <div>
+          <label for="color">Color:</label>
+          <input type="color" value="#4228c3" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
